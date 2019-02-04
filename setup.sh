@@ -20,8 +20,14 @@ bin/kafka-topics.sh
 #6 check the java Version
 java -version
 
-# Edit bash profile 
+# Edit bash profile for kafka
 cat ~/.bash_profile 
 cd bin
 # gives full path
 pwd
+# to edit the bash profile file hit with nano or vim
+nano ~/.bash_profile
+# or
+vim  ~/.bash_profile
+# and add the line your full path mine in case in below example
+export PATH="$PATH:/Users/sumitthakur/kafka_2.12-2.1.0/bin"
