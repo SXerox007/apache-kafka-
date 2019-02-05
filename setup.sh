@@ -31,3 +31,7 @@ nano ~/.bash_profile
 vim  ~/.bash_profile
 # and add the line your full path mine in case in below example
 export PATH="$PATH:/Users/sumitthakur/kafka_2.12-2.1.0/bin"
+
+# or simply use the one commnand
+brew install kafka 
+# it will automatically install all the kafka binaries in our system
