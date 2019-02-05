@@ -6,6 +6,7 @@
 # -- partition enter the number of partitions want
 # --replicaiton-factor enter the number of replication factor 
 # Note: brokerId=0  number of broker is 1 so the replication factor is max 1 
+# By defalut replication factor is 1 we can change in server.properties file to defalut properties set while create the topic
 kafka-topics --zookeeper 12.0.0.1:2181 --topic name_of_topic --create --partition 3 --replication-factor 1
 
 
