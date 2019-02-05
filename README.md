@@ -10,4 +10,3 @@ brew install kafka
 ```
 zookeeper-server-start config/zookeeper.properties
 ```
-
