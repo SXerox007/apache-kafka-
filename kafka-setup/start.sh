@@ -26,3 +26,10 @@ mkdir data/kafka
 kafka-server-start config/server.properties
 # or
 kafka-server-start.sh config/server.properties
+
+
+
+# zookeeper server runing
+localhost:2181
+# Kafka server runing
+localhost:9092
