@@ -37,16 +37,3 @@ Delete the kafka topics
 ```
 kafka-topics --zookeeper 12.0.0.1:2181 --topic name_of_topic --delete
 ```
-
-## Kafka Producers
-
-send text in producers
-```
-kafka-console-producer --broker-list 12.0.0.1:9092 --topic name_of_topic
-
-```
-
---producer-property acks-all
-```
-kafka-console-producer --broker-list 12.0.0.1:9092 --topic name_of_topic --producer-property acks=all
-```
